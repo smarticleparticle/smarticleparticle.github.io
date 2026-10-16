@@ -1,22 +1,32 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "Stanford Bio-X Interdisciplinary Initiatives Seed Grants Poster Session<br />Stanford University, CA, USA",
+    37.4313138,
+    -122.1693654
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "Brain-Body Conference<br />Bordeaux, France",
+    44.841225,
+    -0.5800364
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "Stanford Wu-Tsai Neuroscience Retreat<br />Mountain View, CA",
+    37.3893889,
+    -122.0832101
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "IEEE Engineering in Medicine and Biology Society (EMBC)<br />Copenhagen, Denmark",
+    55.6867243,
+    12.5700724
+  ],
+  [
+    "Society for Neuroscience<br />Washington D.C.",
+    38.8950982,
+    -77.0363849
+  ],
+  [
+    "Stanford-Berkeley Women in CS/EE Research Meetup<br />Stanford University, CA, USA",
+    37.4313138,
+    -122.1693654
   ]
 ];
