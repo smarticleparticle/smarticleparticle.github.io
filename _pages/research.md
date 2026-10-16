@@ -4,7 +4,7 @@ title: "My Research"
 layout: single
 author_profile: true
 ---
-My current research investigates the neural mechanisms underlying olfactory perception and their connection to whole-body physiology. 
+Hiii!!!! My current research investigates the neural mechanisms underlying olfactory perception and their connection to whole-body physiology. 
 
 I'm generally interested in:
 

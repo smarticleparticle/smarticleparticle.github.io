@@ -31,7 +31,7 @@ By the end of the quarter, students present working prototypes that demonstrate 
 - Technical communication and presentation
 
 ## Course Philosophy
-No prior engineering experience required—students from all majors are welcome. This course demonstrates how engineering can create tangible difference in our local community. Through direct partnership with Bay Area organizations, students see their work impact real people's lives while developing fundamental engineering skills.
+No prior engineering experience required; students from all majors are welcome. This course demonstrates how engineering can create tangible difference in our local community. Through direct partnership with Bay Area organizations, students see their work impact real people's lives while developing fundamental engineering skills.
 
 ## Course Development
-This is my first full course as an instructor. I proposed, designed, and am developing all curriculum and community partnerships for EE111. The course was approved by Stanford's Electrical Engineering Department and will launch in Summer 2026. Enrollment has reached maximum capacity at 35 students!
+This is my first full course as an instructor. I proposed, designed, and developed all curriculum and community partnerships for EE111. The course was approved by Stanford's Electrical Engineering Department and launched in Summer 2026. Enrollment reached maximum capacity at 35 students!
