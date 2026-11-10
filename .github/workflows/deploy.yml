@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master # Adjust if your main branch is named 'main'
+  workflow_dispatch: # Lets sync_substack.yml (or you) start a deploy
 
 permissions:
   contents: write

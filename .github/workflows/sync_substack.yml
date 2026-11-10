@@ -1,0 +1,40 @@
+name: Sync Substack Posts
+
+on:
+  schedule:
+    - cron: '0 15 * * *' # Every day at 15:00 UTC (7-8 AM Pacific)
+  workflow_dispatch: # Allows running it by hand from the Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write           # This workflow pushes to the repository
+      actions: write            # This workflow starts the deploy workflow
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Fetch Substack posts
+      run: python scripts/sync_substack.py
+
+    - name: Commit and deploy if there are new posts
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git add _posts
+        if git diff --cached --quiet; then
+          echo "No new Substack posts"
+          exit 0
+        fi
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git commit -m "Sync Substack posts"
+        git push
+        # Pushes made by this workflow don't trigger deploy.yml on their own, so start it explicitly
+        gh workflow run deploy.yml --ref master
